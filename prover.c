@@ -37,7 +37,7 @@ void prove(SequentL list) {
                 || ref->type == R4b
                 || ref->type == R5b
                 || ref->type == R6a
-                || ref->type == R6a)
+                || ref->type == R6b)
                 printf(", %lu", proof->seqs[i]->to[1]->index);
             putchar('\n');
         }
