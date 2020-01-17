@@ -54,7 +54,13 @@ The program is run as `./assn1q3 <sequent>`, where `<sequent>` is of the form `[
 | ![](https://latex.codecogs.com/png.latex?%5Cto) | `imp` | Implication |
 | ![](https://latex.codecogs.com/png.latex?%5Cleftrightarrow) | `iff` | Bi-implication |
 
-Any other input is treated as an atom (for example, `hello`), which is case-sensitive. Grouping is by parentheses `()`, and order of precedence is `neg`, then `or` and `and`, then `imp` and `iff`, with right associativity. So, `neg p or q and r or s imp t` is parsed as `((neg p) or (q and (r or s))) imp t`
+Any other input is treated as an atom (for example, `hello`), which is case-sensitive. Grouping is by parentheses `()`, and order of precedence is right associative, in the order:
+
+1. `neg`,
+2. `or` and `and`,
+3. `imp` and `iff`,
+
+So, `neg p or q and r or s imp t` is parsed as `((neg p) or (q and (r or s))) imp t`.
 
 The sequent ![](https://latex.codecogs.com/png.latex?%5Cphi%2C%20%28%5Cphi%20%5Cto%20%5Cpsi%29%20%5Cwedge%20%5Crho%20%5Cvdash%20%5Cpsi%20%5Cvee%20%5Cneg%20%5Crho) could be input as `[phi, (phi imp psi) and rho] seq [psi or neg rho]`.
 
