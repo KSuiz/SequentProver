@@ -32,7 +32,7 @@ Below, ![](http://mathurl.com/render.cgi?%5Cpi), ![](http://mathurl.com/render.c
   </tr>
 </table>
 
-To do so, it searches backwards, starting with the sequent to prove. For example, one possible proof that ![](https://latex.codecogs.com/gif.latex?%5Cpsi%20%5Cto%20%5Cphi%20%5Cvdash%20%5Cphi%20%5Cvee%20%5Cneg%20%5Cpsi) is
+To do so, it searches backwards, starting with the sequent to prove. For example, one possible proof that ![](http://mathurl.com/render.cgi?%5Cpsi%20%5Cto%20%5Cphi%20%5Cvdash%20%5Cphi%20%5Cvee%20%5Cneg%20%5Cpsi) is
 
 ![](http://mathurl.com/render.cgi?%5Cbegin%7Barray%7D%7Bc@%7B%7E%7Dl@%7B%5Cquad%7Dl%7D%5Cphi%2C%20%5Cpsi%20%5Cvdash%20%5Cphi%3B%20%5C%3B%20%5Cpsi%20%5Cvdash%20%5Cphi%2C%20%5Cpsi%20%26%26%20%28P1%3B%20P1%29%5C%5C%5Ccline%7B1-1%7D%20%5Cpsi%20%5Cto%20%5Cphi%2C%20%5Cpsi%20%5Cvdash%20%5Cphi%20%26%26%20%28P5b%29%20%5C%5C%5Ccline%7B1-1%7D%20%5Cpsi%20%5Cto%20%5Cphi%20%5Cvdash%20%5Cphi%2C%20%5Cneg%20%5Cpsi%20%26%26%20%28P2a%29%20%5C%5C%5Ccline%7B1-1%7D%20%5Cpsi%20%5Cto%20%5Cphi%20%5Cvdash%20%5Cphi%20%5Cvee%20%5Cneg%20%5Cpsi%20%26%26%20%28P4a%29%20%5Cend%7Barray%7D)
 
